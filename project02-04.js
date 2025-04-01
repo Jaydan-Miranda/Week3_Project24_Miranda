@@ -34,11 +34,11 @@ function calcTotal(){
    buySalad = document.getElementById("salad").checked;
 
 
-   CHICKEN_PRICE += buyChicken ? CHICKEN_PRICE : 0;
-   HALIBUT_PRICE += buyHalibut ? HALIBUT_PRICE : 0;
-   BURGER_PRICE += buyBurger ? BURGER_PRICE : 0;
-   SALMON_PRICE += buySalmon ? SALMON_PRICE : 0;
-   SALAD_PRICE += buySalad ? SALAD_PRICE : 0;
+   CHICKEN_PRICE = buyChicken ? CHICKEN_PRICE : 0;
+   HALIBUT_PRICE = buyHalibut ? HALIBUT_PRICE : 0;
+   BURGER_PRICE = buyBurger ? BURGER_PRICE : 0;
+   SALMON_PRICE = buySalmon ? SALMON_PRICE : 0;
+   SALAD_PRICE = buySalad ? SALAD_PRICE : 0;
 
 
    totalCost = cost + tax;
